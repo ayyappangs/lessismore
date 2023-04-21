@@ -1,0 +1,12 @@
+POST https://localhost:44360/AddEmployee
+content-type: application/json
+
+{
+  "employeeId": 1001,
+  "firstName": "Sourav",
+  "lastName": "Ganguly",
+  "title": "Great Opening Batsman"
+}
+
+### Get employess
+GET https://localhost:44360/Employees
